@@ -5,29 +5,30 @@ import time
 print('Want to hear a joke?')
 userchoice = raw_input()
 
-if userchoice == 'yes':
+if userchoice.lower() != 'no':
     print('Did you hear about the first restaurant to open on the moon?')
     raw_input()
     print('It had great food, but no atmosphere')
     time.sleep(.5)
     print('Want to hear another joke?')
-    userchoice2 = raw_input()
+    userchoice = raw_input()
 
-    if userchoice2 == 'yes':
+    if userchoice.lower() != 'no':
         print('Do you want to hear a construction joke')
         raw_input()
-        print('im still working on it')
+        print('I\'m still working on it')
         time.sleep(.3)
         for i in range(3):
-            time.sleep(1)
             print("Ha")
+            time.sleep(1)
         print('Want to hear another joke?')
-        userchoice2 = raw_input()
+        userchoice = raw_input()
 
-        if userchoice2 == 'yes':
-            print('Why dont eggs tell jokes?')
+
+        if userchoice.lower() != 'no':
+            print('Why don\'t eggs tell jokes?')
             raw_input()
-            print('Theyd crack each other up.')
+            print('They\'d crack each other up.')
             time.sleep(.5)
             print('tehe')
             time.sleep(.5)
