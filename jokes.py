@@ -1,4 +1,6 @@
-#Written by nxt & panguin6010
+#Written by nxt & panguin6010 & llamalectric
+
+import time
 
 print('Want to hear a joke?')
 userchoice = raw_input()
@@ -6,7 +8,8 @@ userchoice = raw_input()
 if userchoice == 'yes':
     print('Did you hear about the first restaurant to open on the moon?')
     raw_input()
-    print('it had great food, but no atmosphere')
+    print('It had great food, but no atmosphere')
+    time.sleep(.5)
     print('Want to hear another joke?')
     userchoice2 = raw_input()
 
@@ -14,7 +17,10 @@ if userchoice == 'yes':
         print('Do you want to hear a construction joke')
         raw_input()
         print('im still working on it')
-        print('haha,haha,haha')
+        time.sleep(.3)
+        for i in range(3):
+            time.sleep(1)
+            print("Ha")
         print('Want to hear another joke?')
         userchoice2 = raw_input()
 
@@ -22,7 +28,10 @@ if userchoice == 'yes':
             print('Why dont eggs tell jokes?')
             raw_input()
             print('Theyd crack each other up.')
-            print('tehe beepboop I have no emotions ;(')
+            time.sleep(.5)
+            print('tehe')
+            time.sleep(.5)
+            print('tehe')
             quit()
         
         else:
