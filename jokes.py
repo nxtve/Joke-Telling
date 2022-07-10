@@ -1,7 +1,7 @@
 #Written by nxt & panguin6010 & llamalectric
 
 import time
-
+# blob
 print('Want to hear a joke?')
 userchoice = raw_input()
 
